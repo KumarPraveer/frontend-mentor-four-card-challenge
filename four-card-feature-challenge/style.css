@@ -1,0 +1,105 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.light {
+  font-weight: 200;
+  display: block;
+  color: hsl(229, 6%, 66%);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+p.header-paragraph {
+  font-size: 15px;
+  display: inline-block;
+  color: hsl(229, 6%, 66%);
+  max-width: 500px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.box {
+  width: 320px;
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+  -webkit-box-shadow: 7px 17px 16px -8px hsl(229, 6%, 66%);
+  -moz-box-shadow: 7px 17px 16px -8px hsl(229, 6%, 66%);
+  box-shadow: 7px 17px 16px -8px hsl(229, 6%, 66%);
+  border-radius: 5px;
+}
+
+/* supervisor */
+.box-cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+/* team builder */
+.box-red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+/* calculator */
+.box-orange {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* karma */
+.box-blue {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.box-mid {
+  transform: translateY(50%);
+}
+
+
+.box h3 {
+  margin: 0;
+}
+
+
+.box p {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  margin: 15px 0 45px;
+}
+
+.box img {
+  display: block;
+  margin-left: auto;
+}
+
+a {
+  color: inherit;
+}
+
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+}
+
+@media (max-width: 650px) {
+  .box-mid {
+    transform: translateY(0%);
+  }
+}
